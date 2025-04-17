@@ -1,0 +1,26 @@
+
+div.home div.contanier div.contentHome .btn-home .video-btn .icon i:hover,
+div.home div.contanier div.contentHome .btn-home .video-btn span:hover {
+    color: #ce1212;
+}
+/* Hover chefs */
+div.chefs div.contanier div.contant-chefs div.item:hover  {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+div.chefs div.contanier div.contant-chefs div.item:hover .icons{
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+    right: 20px;
+}
+/* Hover Gallery */
+div.gallery div.contanier div.content-gallery div.column div.box:hover div.layer {
+    transform: translateY(0);
+    transition: transform 0.9s ease-in-out;
+
+}
+div.gallery div.contanier div.content-gallery div.column div.box:hover img {
+    transform: scale(1.1);
+
+    overflow: hidden;
+}
